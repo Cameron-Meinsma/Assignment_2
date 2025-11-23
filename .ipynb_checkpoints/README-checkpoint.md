@@ -1,8 +1,46 @@
-# Assignment_2
+# Assignment 2
 Course: Collecting Data | Student Number: S6494935
 
-### Corpus
+### 1. Corpus
 The corpus consists of TXT files of the lyrics of every song on the 'What Could Possibly Go Wrong' (2020) album by Dominic Fike.
 
-### Target audience and Intended Use of the Corpus
-The target audience are individuals who want to examine the lyrics of the songs on that album in some way. The intended use of the corpus is to have all the lyrics in one place, so one has a clear overview of all the songs, which should make it easier to quickly investigate the way that the songs are structured as well as the specific words that are being used.
+### 2. Target audience and Intended Use of the Corpus
+The target audience are individuals who want to examine the lyrics of the songs on that album in some way. The intended use of the corpus is to have all the lyrics in one place, so one has a clear overview of all the songs, which should make it easier to investigate the way that the songs and sentences are structured, as well as to examine which words are being used.
+
+### 3. Text selection criteria
+The following criteria applied to the selected lyrics:
+1. The song was part of the 'What Could Possibly Go Wrong' (2020) album by Dominic Fike;
+2. The lyrics was complete;
+3. And the lyrics was scrapable using Python.
+
+### 4. Data collection process
+The following steps were part of the data collection process:
+1. I scraped the lyrics using the Genius API together with John W. Miller's version of the LyricsGenius library from GitHub.
+2. I assigned the scraped lyrics to the data directory.
+3. I renamed the TXT files to only include the song title instead of also containing: 'saved_song_lyrics_dominic_fike_', in front of the song title.
+
+### 5. Cleaning and/or Preprocessing
+TODO
+
+### 6. (Tools Used for) Annotations
+TODO
+
+### 7. Format of Files in the Corpus
+The following formats are part of the corpus:
+- The lyrics are in TXT format
+- The data from the corpus files are in CSV format
+
+The following columns are in the CSV file:
+1. Filename
+2. Title
+3. Document
+4. Text
+5. Tokens
+6. Lemmas
+7. Parts-of-speech
+
+### 8. Quality checks
+TODO
+
+### 9. Anything Else
+TODO
