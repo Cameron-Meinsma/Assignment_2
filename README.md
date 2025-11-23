@@ -17,13 +17,13 @@ The following criteria applied to the selected lyrics:
 The following steps were part of the data collection process:
 1. I scraped the lyrics using the Genius API together with John W. Miller's version of the LyricsGenius library from GitHub.
 2. I assigned the scraped lyrics to the data directory.
-3. I renamed the TXT files to only include the song title instead of also containing: 'saved_song_lyrics_dominic_fike_', in front of the song title.
 
 ### 5. Preprocessing
 The lyrics were preprocessed as follows:
 - Replaced the \n in the document with a space;
 - Removed the \[song part\] from the document;
-- And removed the .txt from the filenames.
+- I removed the .txt from the filenames;
+- And I renamed the TXT files to only include the song title instead of also containing: 'saved_song_lyrics_dominic_fike_', in front of the song title.
 
 ### 6. (Tools Used for) Annotations
 SpaCy was used to create the following annotations:
