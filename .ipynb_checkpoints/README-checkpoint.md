@@ -37,9 +37,12 @@ The following formats are part of the corpus:
 - The data from the corpus files are in CSV format
 
 The following columns are in the CSV file:
-1. Filename
-2. Document
-3. Text
-4. TODO: Tokens
-5. TODO: Lemmas
-6. TODO: Parts-of-speech
+
+| Column Name | Description |
+| :--- | :--- |
+| Filename | The filename as it is in data folder, without the .txt extension. |
+| Document | The original text exactly as it appears in the text file.  |
+| Text | The preprocessed text of this document. |
+| Tokens | The preprocessed text in token format. |
+| Lemmas | The preprocessed text in lemma format. |
+| Parts-of-speech | The preprocessed text in coarse-grained and detailed tagging format. |
