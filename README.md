@@ -32,12 +32,13 @@ The following formats are part of the corpus:
 
 The following columns are in the CSV file:
 1. Filename
-2. Title
+2. Title (Optional)
 3. Document
-4. Text
+4. Text (Optional)
 5. Tokens
 6. Lemmas
 7. Parts-of-speech
+8. Metadata (Optional)
 
 ### 8. Quality checks
 TODO
