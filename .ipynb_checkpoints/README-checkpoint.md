@@ -26,7 +26,10 @@ The lyrics were preprocessed as follows:
 - And removed the .txt from the filenames.
 
 ### 6. (Tools Used for) Annotations
-TODO
+SpaCy was used to create the following annotations:
+- Tokens
+- Lemmas
+- Parts-of-speech
 
 ### 7. Format of Files in the Corpus
 The following formats are part of the corpus:
@@ -40,9 +43,3 @@ The following columns are in the CSV file:
 4. TODO: Tokens
 5. TODO: Lemmas
 6. TODO: Parts-of-speech
-
-### 8. Quality checks
-TODO
-
-### 9. Anything Else
-TODO
