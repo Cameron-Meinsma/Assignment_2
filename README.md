@@ -19,8 +19,11 @@ The following steps were part of the data collection process:
 2. I assigned the scraped lyrics to the data directory.
 3. I renamed the TXT files to only include the song title instead of also containing: 'saved_song_lyrics_dominic_fike_', in front of the song title.
 
-### 5. Cleaning and/or Preprocessing
-TODO
+### 5. Preprocessing
+The lyrics were preprocessed as follows:
+- Replaced the \n in the document with a space;
+- Removed the \[song part\] from the document;
+- And removed the .txt from the filenames.
 
 ### 6. (Tools Used for) Annotations
 TODO
